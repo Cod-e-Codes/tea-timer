@@ -1,5 +1,7 @@
 # Tea Timer
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/Cod-e-Codes/tea-timer)](https://goreportcard.com/report/github.com/Cod-e-Codes/tea-timer)
+
 A minimalist terminal-based countdown timer built with Go and Bubble Tea. Perfect for timing tea steeping, meditation sessions, or any quick countdown needs.
 
 ## Features
