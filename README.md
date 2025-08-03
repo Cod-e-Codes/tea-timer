@@ -1,9 +1,9 @@
 # Tea Timer
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/Cod-e-Codes/tea-timer)](https://goreportcard.com/report/github.com/Cod-e-Codes/tea-timer)
+[![CI](https://github.com/Cod-e-Codes/tea-timer/actions/workflows/go.yml/badge.svg)](https://github.com/Cod-e-Codes/tea-timer/actions/workflows/go.yml)
 [![Go Version](https://img.shields.io/badge/Go-1.24+-blue.svg)](https://golang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/Cod-e-Codes/tea-timer/actions/workflows/go.yml/badge.svg)](https://github.com/Cod-e-Codes/tea-timer/actions/workflows/go.yml)
 
 ![Tea Timer Demo](demo.gif)
 
