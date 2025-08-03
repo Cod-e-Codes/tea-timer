@@ -80,6 +80,31 @@ When the timer finishes, the display will flash to alert you. Press `s` or `spac
 2. Run `go mod tidy` to install dependencies
 3. Build with `go build` or run directly with `go run main.go`
 
+## Documentation
+
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to Tea Timer
+- [Security Policy](SECURITY.md) - How to report security vulnerabilities
+- [Issue Templates](.github/ISSUE_TEMPLATE/) - Templates for bug reports and feature requests
+
+## Project Structure
+
+```
+tea-timer/
+├── main.go                    # Main application code
+├── go.mod                     # Go module file
+├── go.sum                     # Dependency checksums
+├── README.md                  # Project documentation
+├── CONTRIBUTING.md            # Contribution guidelines
+├── SECURITY.md                # Security policy
+├── LICENSE                    # MIT License
+├── .github/
+│   ├── workflows/
+│   │   └── go.yml            # CI/CD workflow
+│   ├── ISSUE_TEMPLATE/       # Issue templates
+│   └── pull_request_template.md
+└── tea-timer-*-amd64*        # Release binaries
+```
+
 ## Dependencies
 
 - [Bubble Tea](https://github.com/charmbracelet/bubbletea) - Terminal UI framework
