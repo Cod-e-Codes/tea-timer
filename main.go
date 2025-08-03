@@ -169,9 +169,9 @@ func (m model) View() string {
 	if m.finished {
 		// Flash the time when finished
 		if m.flash {
-			s += fmt.Sprintf(" %s\n", flashStyle(timeStr))
+			s += fmt.Sprintf(" %s %s\n", "⏰", flashStyle(timeStr))
 		} else {
-			s += fmt.Sprintf(" %s\n", timeStyle(timeStr))
+			s += fmt.Sprintf(" %s %s\n", "⏰", timeStyle(timeStr))
 		}
 		s += flashStyle("⏰  Time's up!") + "\n"
 	} else if m.running {
